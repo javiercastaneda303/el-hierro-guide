@@ -10,6 +10,7 @@
     "@types/node": "^16.11.59",
     "@types/react": "^18.0.20",
     "@types/react-dom": "^18.0.6",
+    "gh-pages": "^4.0.0",
     "i18next": "^21.9.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -18,7 +19,11 @@
     "typescript": "^4.8.3",
     "web-vitals": "^2.1.4"
   },
+  "homemage__": "https://github.com/javiercastaneda303/el-hierro-guide.git",
+  "homemage": "https://javiercastaneda303.github.com/el-hierro-guide.git",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

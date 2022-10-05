@@ -61,3 +61,6 @@ https://react.i18next.com/getting-started
 
 video
 https://youtu.be/C6PtKxW4rvk
+
+
+npm i gh-pages   permite hacer deploy a github

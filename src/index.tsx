@@ -8,8 +8,11 @@ import reportWebVitals from './reportWebVitals';
 import i18next from "i18next";
 import { initReactI18next, I18nextProvider } from "react-i18next";
 
-import global_es from './translations/es/global.json';
+import global_cs from './translations/cs/global.json';
+import global_de from './translations/de/global.json';
 import global_en from './translations/en/global.json';
+import global_es from './translations/es/global.json';
+import global_pl from './translations/pl/global.json';
 
 i18next
   .use(initReactI18next) // passes i18n down to react-i18next
@@ -18,21 +21,39 @@ i18next
     // (tip move them in a JSON file and import them,
     // or even better, manage them via a UI: https://react.i18next.com/guides/multiple-translation-files#manage-your-translations-with-a-management-gui)
     resources: {
-      en: {
+      cs: {
         translation: {
           "Welcome to React": "Welcome to React and react-i18next"
+        },
+        global: global_cs
+      },
+      de: {
+        translation: {
+          "Welcome to React": "%%_de_%% alemán Welcome to React and react-i18next"
+        },
+        global: global_de
+      },
+      en: {
+        translation: {
+          "Welcome to React": "%%_en_%% Welcome to React and react-i18next"
         },
         global: global_en
       },
       es: {
         translation: {
-          "Welcome to React": "Bienvenido a React y react-i18next"
+          "Welcome to React": "%%_es_%% Bienvenido a React y react-i18next"
         },
         global: global_es
+      },
+      pl: {
+        translation: {
+          "Welcome to React": "%%_pl_%% Welcome to React and react-i18next"
+        },
+        global: global_pl
       }
     },
     lng: "en", // %% PENDIENTE ELIMINAR!!!!  if you're using a language detector, do not define the lng option
-    fallbackLng: "en",
+    fallbackLng: "en", // %% PENDIENTE C OMPRENDER ¿QUÉ HACE?
 
     interpolation: {
       escapeValue: false // react already safes from xss => https://www.i18next.com/translation-function/interpolation#unescape

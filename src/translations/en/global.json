@@ -1,12 +1,13 @@
 {
     "header":{
+        "languaje":"inglés",
         "hello-world":"en hello World",
         "welcome":"I am Joanna and I am delighted to welcome you here :)",
         "official guide":"I am an Official Tour Guide of the Canary Islands - it is important to know, because only a guide authorized by the Government of the Canary Islands can legally show you the treasures of the island of El Hierro; In addition, you will ensure a tour of the highest quality.",
         "pasion":"I am passionate about history, languages and sharing experiences. I am in love with this island and I would love for you to discover it with me.",
         "know":"The tours that I organize have one goal - to be unforgettable for you and I am proud to have received many references from my happy and satisfied clients. With me you will be able to get to know El Hierro from a local and authentic point of view - in each tour, we will not only travel back in time to learn about the history and some curiosities of the area we visit, but I will remain very alert in the present to recommend local places to shop, have coffee or authentic local restaurants that stand out for their quality and price...",
         "your friend":"During the tour I will not only be your guide, but also your friend, so you can ask me anything you need for your holidays on the island. Do not hesitate and join these adventures with me!",
-        "camon":"%%% ups en inglés no tengo ésta parte %%% ¡No lo dudes más y apúntate a estas aventuras conmigo!",
+        "camon":"Do not hesitate and join these adventures with me!",
         "i would like":"Explore my site to learn more about me and what I offer. I look forward to guiding you on your next adventure."
     }
 }

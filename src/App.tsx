@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 import { useTranslation } from "react-i18next";
@@ -18,8 +18,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" /> {/* el logo tengo que eliminarlo */}
+        {/* <img src={logo} className="App-logo" alt="logo" /> el logo tengo que eliminarlo pero lno puedo insertar las banderas de la misma forma */}
         <p>
+          <ChangeLanguage />
           <Header />
           <ChangeLanguage />
         </p>

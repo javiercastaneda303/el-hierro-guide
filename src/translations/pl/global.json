@@ -1,7 +1,16 @@
 {
     "header":{
         "languaje":"polaco",
-        "hello-world":"",
+        "cs": "Czech",
+        "de": "German",
+        "en": "English",
+        "es": "Español",
+        "pl": "Polish",
+        "home": "Strona główna",
+        "aboutMe": "Ja o mnie",
+        "myClients": "Moi klienci o mnie",
+        "offer": "Co oferuję",
+        "contact": "Kontakt",
         "welcome":"Nazywam się Asia i cieszę się, że tu trafiłeś :)",
         "official guide":"Jestem Oficjalnym Przewodnikiem Turystycznym Wysp Kanaryjskich - warto to wiedzieć, bo tylko przewodnik upoważniony przez Rząd Wysp Kanaryjskich może legalnie pokazać Ci skarby wyspy El Hierro. Dodatkowo zapewnisz sobie wycieczkę najwyższej jakości.",
         "pasion":"Pasjonuje mnie historia, języki i dzielenie się doświadczeniami. Jestem zakochana w tej wyspie i chciałabym, żebyś odkrył ją ze mną. Organizowane przeze mnie wycieczki mają jeden cel - być dla Ciebie niezapomnianymi i jestem dumna, że otrzymałam wiele referencji od zadowolonych klientów.",

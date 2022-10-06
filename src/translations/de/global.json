@@ -1,6 +1,16 @@
 {
     "header":{
-        "hello-world":"Alemán",
+        "languaje":"alemán",
+        "cs": "Czech",
+        "de": "German",
+        "en": "English",
+        "es": "Español",
+        "pl": "Polish",
+        "home": "Home",
+        "aboutMe": "Ich über mich",
+        "myClients": "Meine Kunden über mich",
+        "offer": "Was ich anbiete",
+        "contact": "Kontakt",
         "welcome":"Ich bin Joanna und freue mich, Sie hier begrüßen zu dürfen :)",
         "official guide":"Ich bin eine staatlich anerkannte Reiseleiterin für die Kanarischen Inseln. Das ist wichtig zu wissen, denn nur von der Regierung der Kanarischen Inseln anerkannte Reiseführer dürfen Ihnen die Schätze der Insel El Hierro zeigen. So können Sie sicher sein, dass Sie eine Tour von höchster Qualität bekommen.",
         "pasion":"Geschichte, Sprachen und der Austausch von Erfahrungen sind meine Leidenschaft. Ich bin in El Hierro verliebt und würde mich freuen, wenn Sie die Insel mit mir entdecken. Ich organisiere meine Touren mit einem Ziel - Ihnen ein unvergessliches Erlebnis zu bieten. Dass dies mir gelingt, zeugen die vielen Referenzen, die ich von glücklichen und zufriedenen Kunden erhalten habe.",

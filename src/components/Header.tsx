@@ -28,13 +28,6 @@ export default function Header(){
         <p>
           {t("header.i would like")}
         </p>
-        <br/><br/>
-        {/* <button onClick={()=> i18n.changeLanguage("es")}>es</button>
-        <button onClick={()=> i18n.changeLanguage("en")}>en</button>
-        
-        <img onClick={()=> i18n.changeLanguage("es")} src="/icons/spain.png" className="icon-language" alt="spain" style={{ cursor: 'pointer' }} />
-        <img onClick={()=> i18n.changeLanguage("en")} src="/icons/united_kingdom.png" className="icon-language" alt="united_kingdom" style={{ cursor: 'pointer' }} />
-         */}
       </div>
     )
     

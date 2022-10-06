@@ -1,7 +1,16 @@
 {
     "header":{
         "languaje":"español",
-        "hello-world":"es Hola Mundoooo",
+        "cs": "Czech",
+        "de": "German",
+        "en": "English",
+        "es": "Español",
+        "pl": "Polish",
+        "home": "Inicio",
+        "aboutMe": "Yo misma sobre mí",
+        "myClients": "Mis clientes sobre mí",
+        "offer": "Lo que ofrezco",
+        "contact": "Contacto",
         "welcome":"Soy Joanna y estoy encantada de darle la bienvenida aquí :)",
         "official guide":"Soy Guía de Turismo Oficial de Canarias -  es importante saberlo, pues solo un guía habilitado por el Gobierno de Canarias podrá mostrarte legalmente los tesoros de la isla de El Hierro; además, te asegurarás un tour de máxima calidad.",
         "pasion":"Me apasionan la historia, los idiomas y compartir experiencias. Estoy enamorada de mi isla y me encantaría que la descubrieras conmigo. Los tours que tengo organizados tienen un objetivo: que sean inolvidables para ti y me enorgullece haber recibido muchas referencias de mis clientes felices y satisfechos. ",

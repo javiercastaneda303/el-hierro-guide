@@ -1,18 +1,25 @@
-import './index.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { initReactI18next, I18nextProvider } from "react-i18next";
+import i18next from "i18next";
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import i18next from "i18next";
-import { initReactI18next, I18nextProvider } from "react-i18next";
 
 import global_cs from './translations/cs/global.json';
 import global_de from './translations/de/global.json';
 import global_en from './translations/en/global.json';
 import global_es from './translations/es/global.json';
 import global_pl from './translations/pl/global.json';
+
+import './index.css';
+import Home from './pages/Home';
+import AboutMe from './pages/AboutMe';
+import MyClients from './pages/MyClients';
+import Offer from './pages/Offer';
+import Contact from './pages/Contact';
 
 i18next
   .use(initReactI18next) // passes i18n down to react-i18next
@@ -66,7 +73,24 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
-      <App />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<App />}>
+            <Route index element={<Home />} />
+            <Route path="/home/:lang" element={<Home />} />
+            <Route path="/home/" element={<Home />} />
+            <Route path="/aboutMe/:lang" element={<AboutMe />} />
+            <Route path="/aboutMe/" element={<AboutMe />} />
+            <Route path="/myClients/:lang" element={<MyClients />} />
+            <Route path="/myClients/" element={<MyClients />} />
+            <Route path="/offer/:lang" element={<Offer />} />
+            <Route path="/offer/" element={<Offer />} />
+            <Route path="/contact/:lang" element={<Contact />} />
+            <Route path="/contact/" element={<Contact />} />
+            <Route path="*" element={<Home />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>                 
     </I18nextProvider>
   </React.StrictMode>
 );

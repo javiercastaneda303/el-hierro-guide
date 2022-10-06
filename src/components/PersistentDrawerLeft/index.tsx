@@ -22,6 +22,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import './style.css'
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { PropaneSharp } from '@mui/icons-material';
 
 const drawerWidth = 240;
 
@@ -74,7 +75,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   justifyContent: 'flex-end',
 }));
 
-export default function PersistentDrawerLeft() {
+export default function PersistentDrawerLeft(props: any) {
     // se los coloco yo para que los items del Drawer hagan lo que yo quiero
     const navigate = useNavigate()
     const [t, i18n] = useTranslation('global')
@@ -162,6 +163,7 @@ export default function PersistentDrawerLeft() {
       </Drawer>
       <Main open={open}>
         <DrawerHeader />
+        {props.children}
         <Typography paragraph>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
           tempor incididunt ut labore et dolore magna aliqua. Rhoncus dolor purus non

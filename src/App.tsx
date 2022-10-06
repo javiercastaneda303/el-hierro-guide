@@ -52,10 +52,11 @@ function App() {
       <header className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> el logo tengo que eliminarlo pero lno puedo insertar las banderas de la misma forma */}
           {/* <ResponsiveDrawer /> */}
-          <PersistentDrawerLeft />
-          <Outlet />
-          <Header />
-          <ChangeLanguage />
+          <PersistentDrawerLeft >
+            <Outlet />
+            <Header />
+            <ChangeLanguage />
+          </ PersistentDrawerLeft>
       </header>
     </div>
   );

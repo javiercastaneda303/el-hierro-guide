@@ -1,6 +1,3 @@
-// %% Deuda técnica, si location es erroneo, lo corrige pero va al inglés siempre,
-// si lo tenco en checo tendrá que ir al checo
-
 // Deuda técnica: locationArray[0]   langArray[0]
 import React, { useEffect } from 'react';
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
@@ -13,7 +10,7 @@ import './App.css';
 function App() {
 
   const { t, i18n } = useTranslation();
-  const langURL = useParams().lang || window.location.pathname.split('/')[2]  // hay qeu tiparlo 
+  const langURL = useParams().lang || window.location.pathname.split('/')[2] 
   const navigate = useNavigate()
   let location = useLocation().pathname.split('/')[1]
 
@@ -53,8 +50,6 @@ function App() {
     localStorage.setItem('lang', lang)
     i18n.changeLanguage(lang)
     navigate(`${location}/${lang}`)
-    
-    // navigate(`${location}/pl`)
     document.title = 'El Hierro guide'
   }, [langURL]);
   

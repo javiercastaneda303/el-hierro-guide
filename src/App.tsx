@@ -52,7 +52,6 @@ function App() {
     i18n.changeLanguage(lang)
     navigate(`${location}/${lang}`)
     document.title = 'El Hierro guide'
-    // if (!window.location.pathname.split('/')[1]) {
   }, [i18n]);
   
   return (

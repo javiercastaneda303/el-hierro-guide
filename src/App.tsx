@@ -1,4 +1,4 @@
-// Deuda técnica, si location es erroneo, lo corrige pero va al inglés siempre,
+// %% Deuda técnica, si location es erroneo, lo corrige pero va al inglés siempre,
 // si lo tenco en checo tendrá que ir al checo
 
 // Deuda técnica: locationArray[0]   langArray[0]
@@ -13,14 +13,13 @@ import './App.css';
 function App() {
 
   const { t, i18n } = useTranslation();
-  const langURL = useParams().lang || 'en' // hay qeu tiparlo 
+  const langURL = useParams().lang || window.location.pathname.split('/')[2]  // hay qeu tiparlo 
   const navigate = useNavigate()
   let location = useLocation().pathname.split('/')[1]
 
+
   useEffect(() => {
     const langBrouser = navigator.language.split("-")['0']
-    console.log(`langBrouser: ${langBrouser}`)
-    
     let langStorage = localStorage.getItem('lang')
     let lang = "en"
 
@@ -30,9 +29,12 @@ function App() {
       location = 'home'
       localStorage.setItem('component', location)
     }
-    
+    console.log('langURL')
+    console.log(langURL)
     if (langURL === 'cs' || langURL === 'de' || langURL === 'en' || langURL === 'es' || langURL === 'pl' ) {
+      console.log('línea 35 ')
       lang = langURL
+      console.log(lang)
       localStorage.setItem('component', location)
     } else if (langStorage === 'cs' || langStorage === 'de' || langStorage === 'en' || langStorage === 'es' || langStorage === 'pl' ) {
       lang = langStorage
@@ -51,8 +53,10 @@ function App() {
     localStorage.setItem('lang', lang)
     i18n.changeLanguage(lang)
     navigate(`${location}/${lang}`)
+    
+    // navigate(`${location}/pl`)
     document.title = 'El Hierro guide'
-  }, [i18n]);
+  }, [langURL]);
   
   return (
     <div className="App">

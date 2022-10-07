@@ -1,3 +1,5 @@
+// %% Deuda técnica, para móviles, el menú aparece cerrado y al hacer click en un enlace lo cierra window.innerWidth < 900
+
 import * as React from 'react';
 import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -84,6 +86,9 @@ export default function PersistentDrawerLeft(props: any) {
     // deuda técnica, ¿un hook para ésto?  useMediaQuerry
     let location = useLocation().pathname.split('/')[1]
     const goTo = (lang: string) => {
+      if (window.innerWidth < 900){
+        handleDrawerClose()
+      }
       i18n.changeLanguage(lang)
       localStorage.setItem('lang', lang)
       navigate(`${location}/${lang}`)

@@ -8,12 +8,21 @@ import PersistentDrawerLeft from './components/PersistentDrawerLeft';
 import './App.css';
 
 function App() {
-
+  
   const { t, i18n } = useTranslation();
-  const langURL = useParams().lang || window.location.pathname.split('/')[2] 
+  const { pathname } = useLocation();
+  const langURL = useParams().lang || window.location.pathname.split('/').reverse()[0]
   const navigate = useNavigate()
-  let location = useLocation().pathname.split('/')[1]
+  let location = pathname.split('/')[1]
 
+
+  useEffect(() => {
+    //window.scrollTo(0, 0);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+  });
+  }, [pathname]);
 
   useEffect(() => {
     const langBrouser = navigator.language.split("-")['0']

@@ -1,5 +1,3 @@
-// %% Deuda técnica, para móviles, el menú aparece cerrado y al hacer click en un enlace lo cierra window.innerWidth < 900
-
 import * as React from 'react';
 import { styled, useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
@@ -25,6 +23,9 @@ import './style.css'
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { PropaneSharp } from '@mui/icons-material';
+import { useEffect } from 'react';
+import { useMediaQuery } from '@mui/material';
+import { itemArray, langArray} from'../../constant'
 
 const drawerWidth = 240;
 
@@ -81,12 +82,13 @@ export default function PersistentDrawerLeft(props: any) {
     // se los coloco yo para que los items del Drawer hagan lo que yo quiero
     const navigate = useNavigate()
     const [t, i18n] = useTranslation('global')
+
   
     // para navegar, va en una función
     // deuda técnica, ¿un hook para ésto?  useMediaQuerry
     let location = useLocation().pathname.split('/')[1]
     const goTo = (lang: string) => {
-      if (window.innerWidth < 900){
+      if (isMobileScreen){
         handleDrawerClose()
       }
       i18n.changeLanguage(lang)
@@ -94,13 +96,19 @@ export default function PersistentDrawerLeft(props: any) {
       navigate(`${location}/${lang}`)
     }
     const navigateTo = (text: string) => {
-      if (window.innerWidth < 900){
+      if (isMobileScreen){
         handleDrawerClose()
       }
       navigate(`${text}/${i18n.language}`)
     }
-  
-  const theme = useTheme();
+    const theme = useTheme();
+    const isMobileScreen = useMediaQuery(theme.breakpoints.down('md'));
+    useEffect(() => {
+      if (isMobileScreen){
+        handleDrawerClose()
+      }
+    }, [isMobileScreen]);
+
   const [open, setOpen] = React.useState(true);
 
   const handleDrawerOpen = () => {
@@ -150,7 +158,7 @@ export default function PersistentDrawerLeft(props: any) {
         </DrawerHeader>
         <Divider />
         <List>
-          {['home', 'aboutMe', 'myClients', 'offer', 'contact'].map((text, index) => (
+          {itemArray.map((text, index) => (
             <ListItem key={text} disablePadding>
               <ListItemButton onClick={() => navigateTo(text)}>
                 <ListItemText primary={t(`header.${text}`)} />
@@ -160,10 +168,9 @@ export default function PersistentDrawerLeft(props: any) {
         </List>
         <Divider />
         <List>          
-        {['cs', 'de', 'en', 'es', 'pl'].map((text, index) => (
+        {langArray.map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton onClick={() => goTo(text)}>
-              {/* <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon> */}
               <img src={`/icons/${text}.png`} className="labelDrawer" alt="PonerCountriAqui" style={{ cursor: 'pointer' }} />
               <ListItemText primary={t(`header.${text}`)} />
             </ListItemButton>

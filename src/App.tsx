@@ -60,6 +60,7 @@ function App() {
     i18n.changeLanguage(lang)
     navigate(`${location}/${lang}`)
     document.title = 'El Hierro guide'
+    document.documentElement.lang = i18n.language
   }, [langURL]);
   
   return (

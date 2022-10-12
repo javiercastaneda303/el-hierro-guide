@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom';
 import { initReactI18next, I18nextProvider } from "react-i18next";
 import i18next from "i18next";
 
@@ -73,7 +73,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <I18nextProvider i18n={i18next}>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<App />}>
             <Route index element={<Home />} />
@@ -90,7 +90,7 @@ root.render(
             <Route path="*" element={<Home />} />
           </Route>
         </Routes>
-      </BrowserRouter>                 
+      </HashRouter>                 
     </I18nextProvider>
   </React.StrictMode>
 );

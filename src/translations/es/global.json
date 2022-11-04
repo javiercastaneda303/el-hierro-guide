@@ -6,7 +6,7 @@
         "en": "English",
         "es": "Español_",
         "pl": "Polish",
-        "home": "Inicioo_",
+        "home": "Inicio",
         "aboutMe": "Yo misma sobre mí",
         "myClients": "Mis clientes sobre mí",
         "offer": "Lo que ofrezco",
@@ -17,6 +17,14 @@
         "know":"Conmigo podrás conocer El Hierro desde un punto de vista local y auténtico - en cada tour, no solo haremos un viaje en el tiempo para conocer la historia y algunas anécdotas y curiosidades de la zona que visitemos, sino que me mantendré muy alerta en el presente para recomendarte sitios locales para comprar, tapear o tomar café; posibles actividades culturales que se oferten durante tus días de vacaciones; restaurantes auténticamente locales que destacan por su calidad y precio...",
         "your friend":"Durante el recorrido no solo seré tu guía, sino también tu amiga, así que podrás aprovechar para preguntarme cualquier cosa que necesites para tus vacaciones en la isla. ",
         "camon":"¡No lo dudes más y apúntate a estas aventuras conmigo!",
-        "i would like":"Explore mi sitio para saber más sobre mí y lo que ofrezco. Tengo muchas ganas de guiarte en tu próxima aventura."
+        "i would like":"Explore mi sitio para saber más sobre mí y lo que ofrezco. Tengo muchas ganas de guiarte en tu próxima aventura.",
+        "whatsappMessage":"Hola,%20me%20gustaría%20saber%20más%20sobre%20lo%20que%20ofreces...%20",        
+        "b":"",
+        "c":"",
+        "d":"",
+        "e":"",
+        "f":"",
+        "g":"",
+        "h":""
     }
 }

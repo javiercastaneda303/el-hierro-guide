@@ -1,0 +1,8 @@
+<a onClick={()=>window.open('mailto:email@example.com?subject=Subject&body=Body%20goes%20here')}>          
+        <img  src="/icons/email.png" className="icon-language" alt="icon-email" style={{ cursor: 'pointer' }} />
+        </a>
+
+
+        <a target="_self" href="mailto:jo.rudnik@gmail.com" rel="noreferrer">          
+        <img  src="/icons/email.png" className="icon-language" alt="icon-email" style={{ cursor: 'pointer' }} />
+        </a>

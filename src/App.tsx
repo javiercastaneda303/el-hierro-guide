@@ -2,10 +2,10 @@
 import React, { useEffect } from 'react';
 import { Outlet, useLocation, useNavigate, useParams } from 'react-router-dom';
 import { useTranslation } from "react-i18next";
-import Header from './components/Header';
 import ChangeLanguage from './components/ChangeLanguage';
 import PersistentDrawerLeft from './components/PersistentDrawerLeft';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   
@@ -68,8 +68,8 @@ function App() {
       <header className="App-header">
           <PersistentDrawerLeft >
             <Outlet />
-            <Header />
             <ChangeLanguage />
+            <Footer />
           </ PersistentDrawerLeft>
       </header>
     </div>

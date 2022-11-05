@@ -47,14 +47,14 @@ export default function FormContact() {
   return (
     <>
       <Typography variant="h6" color="initial">
-        Formulario de contacto
+        ${t("formContact.title")}
       </Typography>
 
       <form onSubmit={handleFormSubmit}>
         <Grid container spacing={6}>
           <Grid item sm={12}>
             <FormControl>
-              <InputLabel htmlFor="nombre">Nombre</InputLabel>
+              <InputLabel htmlFor="nombre">${t("formContact.name")}</InputLabel>
               <Input
                 name="nombre"
                 id="nombre"
@@ -66,7 +66,7 @@ export default function FormContact() {
           </Grid>
           <Grid item sm={12}>
             <FormControl>
-              <InputLabel htmlFor="email">Email</InputLabel>
+              <InputLabel htmlFor="email">${t("formContact.email")}</InputLabel>
               <Input
                 name="email"
                 id="email"
@@ -79,7 +79,7 @@ export default function FormContact() {
           <Grid item sm={12}>
             <FormControl>
               <Typography variant="h6" color="initial">
-              Mensaje
+              ${t("formContact.message")}
               </Typography>
               <TextField
                 placeholder="insert here your message"
@@ -95,7 +95,7 @@ export default function FormContact() {
           </Grid>
           <Grid item sm={12}>
             <FormControlLabel
-              label="Aceptar terminos"
+              label= {t("formContact.message")}
               control={
                 <Checkbox
                   name="terminos"
@@ -107,7 +107,7 @@ export default function FormContact() {
             />
           </Grid>
           <Grid item sm={12}>
-            <Button type="submit">Enviar</Button>
+            <Button type="submit">${t("formContact.send")}</Button>
           </Grid>
         </Grid>
       </form>

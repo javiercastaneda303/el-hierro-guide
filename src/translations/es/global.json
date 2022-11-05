@@ -26,5 +26,17 @@
         "f":"",
         "g":"",
         "h":""
+    },
+    "formContact":{
+        "title":"ES% Formulario de contacto",
+        "name":"ES% Nombre",
+        "email":"ES% email",
+        "message":"ES% Mensaje",
+        "messagePlaceholder":"ES% a)inserta aquí tu mensaje b)Joanna si quieres puedes personalizar éste mensaje",
+        "accept":"ES% Aceptar",
+        "send":"ES% Enviar",
+        "termsAndCondicions":"ES% Términos y condiciones",
+        "legalPolicy":"ES% Política de privacidad",
+        "cookies":"ES% Cookies"
     }
 }

@@ -6,6 +6,7 @@ import ChangeLanguage from './components/ChangeLanguage';
 import PersistentDrawerLeft from './components/PersistentDrawerLeft';
 import './App.css';
 import Footer from './components/Footer';
+import FormContact from './components/FormContact';
 
 function App() {
   
@@ -69,6 +70,7 @@ function App() {
           <PersistentDrawerLeft >
             <Outlet />
             <ChangeLanguage />
+            <FormContact />
             <Footer />
           </ PersistentDrawerLeft>
       </header>

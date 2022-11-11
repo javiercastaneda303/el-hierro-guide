@@ -29,15 +29,16 @@
         "h":""
     },
     "formContact":{
-        "title":"EN% Formulario de contacto",
-        "name":"EN% Nombre",
-        "email":"EN% email",
-        "message":"EN% Mensaje",
-        "messagePlaceholder":"EN% a)inserta aquí tu mensaje b)Joanna si quieres puedes personalizar éste mensaje",
-        "accept":"EN% Aceptar",
-        "send":"EN% Enviar",
-        "termsAndCondicions":"EN% Términos y condiciones",
-        "legalPolicy":"EN% Política de privacidad",
-        "cookies":"EN% Cookies"
+        "title":"Contact form",
+        "name":"Name",
+        "email":"Email",
+        "message":"Message",
+        "messagePlaceholder":"Hi, I would like to find out more…",
+        "accept":"Accept",
+        "send":"Send",
+        "termsAndCondicions":"Terms and conditions",
+        "legalPolicy":"Privacy policy",
+        "cookies":"Cookies"
     }
+
 }

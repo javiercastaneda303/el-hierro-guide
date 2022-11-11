@@ -18,10 +18,7 @@ export default function Footer(){
         <img  src="/icons/email.png" className="icon-language" alt="icon-email" style={{ cursor: 'pointer' }} />
         </a>
 
-        <a target="_blank" href="mailto:jo.rudnik@gmail.com" rel="noreferrer">          
-        <img  src="/icons/email.png" className="icon-language" alt="icon-email" style={{ cursor: 'pointer' }} />
-        </a>
-        <a /*  target="_blank" href={linkedinURL} */  onClick={handleClickLinkedin} className="icon-footer" rel="noreferrer">
+        <a target="_blank" href="https://www.linkedin.com/in/joannarudnik/"   onClick={handleClickLinkedin} className="icon-footer" rel="noreferrer">
           <img src="/icons/linkedin.png" className="icon-language" alt="icon-linkedin" style={{ cursor: 'pointer' }} />
         </a>        
         <a target="_blank" href={`https://api.whatsapp.com/send?phone=${phoneOld}&text=${t("header.whatsappMessage")}`}  className="icon-footer" rel="noreferrer">    

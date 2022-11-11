@@ -7,11 +7,33 @@ import {
   Input,
   InputLabel,
   Typography,
-  TextField,
+  TextField
 } from "@mui/material";
+import { makeStyles } from "@mui/styles";
+import { Send } from "@mui/icons-material";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import "./style.css";
+
+const useStyle = makeStyles((theme: any) => ({
+  form: {
+    backgroundColor: '#0a182d',
+    '& *': {
+      color: '#ffffff !important'
+    },
+    '& .MuiInput-root::after, & .MuiInput-root::before, & fieldset': {
+      borderColor: '#ffffff !important'
+    }
+  },
+  buttonSend: {
+    margin: 8,
+    backgroundColor: "#ffffff !important",
+    color: '#0a182d !important',
+    '& .MuiSvgIcon-root': {
+      fill: '#0a182d !important'
+    }
+  }
+})) as any;
 
 export default function FormContact() {
   const [t, i18n] = useTranslation("global");
@@ -21,6 +43,7 @@ export default function FormContact() {
     mensaje: "",
     terminos: false,
   });
+  const classes = useStyle();
 
   const handleChange = (e: any) => {
     const target = e.target as HTMLInputElement;
@@ -46,15 +69,15 @@ export default function FormContact() {
 
   return (
     <>
-      <Typography variant="h6" color="initial">
-        ${t("formContact.title")}
+      <Typography variant="h6" color="#ffffff">
+        {t("formContact.title")}
       </Typography>
 
       <form onSubmit={handleFormSubmit}>
-        <Grid container spacing={6}>
+        <Grid container spacing={6} className={classes.form}>
           <Grid item sm={12}>
             <FormControl>
-              <InputLabel htmlFor="nombre">${t("formContact.name")}</InputLabel>
+              <InputLabel htmlFor="nombre">{t("formContact.name")}</InputLabel>
               <Input
                 name="nombre"
                 id="nombre"
@@ -66,7 +89,7 @@ export default function FormContact() {
           </Grid>
           <Grid item sm={12}>
             <FormControl>
-              <InputLabel htmlFor="email">${t("formContact.email")}</InputLabel>
+              <InputLabel htmlFor="email">{t("formContact.email")}</InputLabel>
               <Input
                 name="email"
                 id="email"
@@ -79,7 +102,7 @@ export default function FormContact() {
           <Grid item sm={12}>
             <FormControl>
               <Typography variant="h6" color="initial">
-              ${t("formContact.message")}
+              {t("formContact.message")}
               </Typography>
               <TextField
                 placeholder="insert here your message"
@@ -107,7 +130,13 @@ export default function FormContact() {
             />
           </Grid>
           <Grid item sm={12}>
-            <Button type="submit">${t("formContact.send")}</Button>
+            <Button type="submit" variant="contained" endIcon={<Send />} sx={{ margin: 8 }}>
+              {t("formContact.send")}
+              </Button>
+
+              <Button type="submit" variant="contained" endIcon={<Send />} className={classes.buttonSend}>
+              {t("formContact.send")}
+              </Button>
           </Grid>
         </Grid>
       </form>

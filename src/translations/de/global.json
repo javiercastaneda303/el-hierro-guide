@@ -28,15 +28,16 @@
         "h":""
     },
     "formContact":{
-        "title":"DE% Formulario de contacto",
-        "name":"DE% Nombre",
-        "email":"DE% email",
-        "message":"DE% Mensaje",
-        "messagePlaceholder":"DE% a)inserta aquí tu mensaje b)Joanna si quieres puedes personalizar éste mensaje",
-        "accept":"DE% Aceptar",
-        "send":"DE% Enviar",
-        "termsAndCondicions":"DE% Términos y condiciones",
-        "legalPolicy":"DE% Política de privacidad",
-        "cookies":"DE% Cookies"
+        "title":"Kontakt Formular",
+        "name":"Name",
+        "email":"Email",
+        "message":"Nachricht",
+        "messagePlaceholder":"Hallo, ich würde gerne mehr über dein Angebot erfahren...",
+        "accept":"Akzeptieren",
+        "send":"Senden",
+        "termsAndCondicions":"Geschäftsbedingungen",
+        "legalPolicy":"Datenschutz-Bestimmungen",
+        "cookies":"Cookies"
     }
+
 }

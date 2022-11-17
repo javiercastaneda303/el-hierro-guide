@@ -18,6 +18,7 @@ import "./style.css";
 const useStyle = makeStyles((theme: any) => ({
   form: {
     backgroundColor: '#0a182d',
+    margin: '0 148px 0 48px !important',
     '& *': {
       color: '#ffffff !important'
     },
@@ -75,7 +76,7 @@ export default function FormContact() {
 
       <form onSubmit={handleFormSubmit}>
         <Grid container spacing={6} className={classes.form}>
-          <Grid item sm={12}>
+          <Grid item xs={12}>
             <FormControl>
               <InputLabel htmlFor="nombre">{t("formContact.name")}</InputLabel>
               <Input
@@ -87,7 +88,7 @@ export default function FormContact() {
               />
             </FormControl>
           </Grid>
-          <Grid item sm={12}>
+          <Grid item xs={12}>
             <FormControl>
               <InputLabel htmlFor="email">{t("formContact.email")}</InputLabel>
               <Input
@@ -99,7 +100,7 @@ export default function FormContact() {
               />
             </FormControl>
           </Grid>
-          <Grid item sm={12}>
+          <Grid item xs={12}>
             <FormControl>
               <Typography variant="h6" color="initial">
               {t("formContact.message")}
@@ -116,7 +117,7 @@ export default function FormContact() {
               />
             </FormControl>
           </Grid>
-          <Grid item sm={12}>
+          <Grid item xs={12}>
             <FormControlLabel
               label= {t("formContact.message")}
               control={
@@ -129,12 +130,8 @@ export default function FormContact() {
               }
             />
           </Grid>
-          <Grid item sm={12}>
-            <Button type="submit" variant="contained" endIcon={<Send />} sx={{ margin: 8 }}>
-              {t("formContact.send")}
-              </Button>
-
-              <Button type="submit" variant="contained" endIcon={<Send />} className={classes.buttonSend}>
+          <Grid item xs={12}>
+            <Button type="submit" variant="contained" endIcon={<Send />} sx={{ margin: 8 }} className={classes.buttonSend}>
               {t("formContact.send")}
               </Button>
           </Grid>

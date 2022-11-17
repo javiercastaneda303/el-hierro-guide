@@ -4,32 +4,32 @@ import Typography from '@mui/material/Typography'
 export default function AboutMe(){
   const [t, i18n] = useTranslation("global");
   return (
-    <>
-        <Typography variant="h2" color="initial">
-          {t("header.aboutMe")}  %% PENDIENTE ELIMINAR ÉSTA LÍNEA
+    <div style={{ backgroundImage: 'url(images/aboutMe.jpg)', padding: 24, color: '#fff' }}>
+        <Typography variant="h2" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
+          {t("header.aboutMe")}
         </Typography>
-        <Typography variant="h6" color="initial">
+        <Typography variant="h6" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
           {t("header.welcome")}          
         </Typography>
-        <Typography variant="h6" color="initial">
+        <Typography variant="h6" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
           {t("header.official guide")}
         </Typography>
-        <Typography variant="h6" color="initial">
+        <Typography variant="h6" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
           {t("header.pasion")}
         </Typography>
-        <Typography variant="h6" color="initial">
+        <Typography variant="h6" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
           {t("header.know")}
         </Typography>
-        <Typography variant="h6" color="initial">
+        <Typography variant="h6" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
           {t("header.your friend")}
         </Typography>
-        <Typography variant="h6" color="initial">
+        <Typography variant="h6" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
           {t("header.camon")}
         </Typography>
-        <Typography variant="h6" color="initial">
+        <Typography variant="h6" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
           {t("header.i would like")}
         </Typography>
-      </>
+      </div>
     )
     
 }

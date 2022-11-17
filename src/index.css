@@ -1,8 +1,15 @@
+@font-face {
+  font-family: 'STYLU';
+  src: url('../public/STYLU.TTF');
+}
+
+html, body, * {
+  font-family: 'STYLU' !important;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'STYLU' !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

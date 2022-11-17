@@ -39,6 +39,10 @@
         "termsAndCondicions":"Terms and conditions",
         "legalPolicy":"Privacy policy",
         "cookies":"Cookies"
+    },
+    "offer":{
+        "tourOperators":"I work with tour operators,",
+        "groups":"groups and individual travelers.",
+        "contact":"Please contact me for further details."
     }
-
 }

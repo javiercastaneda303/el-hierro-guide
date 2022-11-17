@@ -39,6 +39,10 @@
         "termsAndCondicions":"Podmínky",
         "legalPolicy":"Ochrana osobních údajů",
         "cookies":"Cookies"
+    },
+    "offer":{
+        "tourOperators":"Spolupracuji s touroperátory,",
+        "groups":"skupinami i individuálními cestovateli.",
+        "contact":"Kontaktujte mě prosím pro další podrobnosti."
     }
-
 }

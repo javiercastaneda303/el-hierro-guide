@@ -38,6 +38,10 @@
         "termsAndCondicions":"Geschäftsbedingungen",
         "legalPolicy":"Datenschutz-Bestimmungen",
         "cookies":"Cookies"
+    },
+    "offer":{
+        "tourOperators":"Ich arbeite mit Reiseveranstaltern,",
+        "groups":"Gruppen und Einzelreisenden.",
+        "contact":"Bitte kontaktieren Sie mich für weitere Informationen."
     }
-
 }

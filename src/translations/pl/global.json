@@ -38,6 +38,10 @@
         "termsAndCondicions":"Regulamin",
         "legalPolicy":"Polityka prywatności",
         "cookies":"Cookies"
+    },
+    "offer":{
+        "tourOperators":"Współpracuję z touroperatorami,",
+        "groups":"grupami i podróżnikami indywidualnymi.",
+        "contact":"Proszę o kontakt w celu uzyskania szczegółowych informacji."
     }
-
 }

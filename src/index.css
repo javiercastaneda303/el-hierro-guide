@@ -17,10 +17,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+/* 
 main {
   /* padding: 5% !important; */
-  padding: '20px';
-  margin: '20px';
-  border: solid 3px rgb(117, 67, 178);
-}
+  /* padding: '20px'; */
+  /* margin: '20px'; */
+/* } */ 

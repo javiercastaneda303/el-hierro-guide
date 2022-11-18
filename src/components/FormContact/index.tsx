@@ -76,7 +76,7 @@ export default function FormContact() {
         {t("formContact.title")}
       </Typography>
 
-      <form onSubmit={handleFormSubmit} style={{ padding: 0, margin: 0, border: '3px solid red' }}>
+      <form onSubmit={handleFormSubmit} style={{ padding: 0, margin: 0 }}>
         <Grid container spacing={6} className={classes.form}>
           <Grid item xs={12}>
             <FormControl>

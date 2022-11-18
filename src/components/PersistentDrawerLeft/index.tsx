@@ -22,7 +22,7 @@ import MailIcon from '@mui/icons-material/Mail';
 import './style.css'
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { PropaneSharp } from '@mui/icons-material';
+import { ImportantDevices, PropaneSharp } from '@mui/icons-material';
 import { useEffect } from 'react';
 import { useMediaQuery } from '@mui/material';
 import { itemArray, langArray} from'../../constant'
@@ -33,7 +33,9 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })<{
   open?: boolean;
 }>(({ theme, open }) => ({
   flexGrow: 1,
-  padding: theme.spacing(3),
+  //padding: theme.spacing(3), //Este lo soluciona todo
+  //margin: '0px !important',
+  // marginLeft: '0px !important',
   transition: theme.transitions.create('margin', {
     easing: theme.transitions.easing.sharp,
     duration: theme.transitions.duration.leavingScreen,
@@ -44,7 +46,7 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })<{
       easing: theme.transitions.easing.easeOut,
       duration: theme.transitions.duration.enteringScreen,
     }),
-    marginLeft: 0,
+    // marginLeft: 0, // Éste creo que no hace nada
   }),
 }));
 

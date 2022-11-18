@@ -18,7 +18,9 @@ import "./style.css";
 const useStyle = makeStyles((theme: any) => ({
   form: {
     backgroundColor: '#0a182d',
-    margin: '0 148px 0 48px !important',
+    // backgroundColor: '#fff',
+    // margin: '0 !important',
+    // padding:'0 !important',
     '& *': {
       color: '#ffffff !important'
     },
@@ -74,7 +76,7 @@ export default function FormContact() {
         {t("formContact.title")}
       </Typography>
 
-      <form onSubmit={handleFormSubmit}>
+      <form onSubmit={handleFormSubmit} style={{ padding: 0, margin: 0, border: '3px solid red' }}>
         <Grid container spacing={6} className={classes.form}>
           <Grid item xs={12}>
             <FormControl>

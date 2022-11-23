@@ -27,6 +27,11 @@
         "g":"",
         "h":""
     },
+    "home":{
+        "explore":"Explora El Hierro conmigo",
+        "endless":"Posibilidades infinitas",
+        "more":"Descubre más…."
+    },
     "formContact":{
         "title":"Formulario de contacto",
         "name":"Nombre",

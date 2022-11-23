@@ -27,6 +27,11 @@
         "g":"",
         "h":""
     },
+    "home":{
+        "explore":"Erkunden Sie El Hierro mit mir",
+        "endless":"Endlose Möglichkeiten",
+        "more":"Entdecken Sie mehr…"
+    },
     "formContact":{
         "title":"Kontakt Formular",
         "name":"Name",

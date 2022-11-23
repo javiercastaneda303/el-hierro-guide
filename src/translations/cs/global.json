@@ -28,6 +28,11 @@
         "g":"",
         "h":""
     },
+    "home":{
+        "explore":"Prozkoumejte El Hierro se mnou",
+        "endless":"Neomezené možnosti",
+        "more":"Objevte více…"
+    },
     "formContact":{
         "title":"Kontaktní formulář",
         "name":"Jméno",

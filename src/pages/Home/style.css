@@ -1,0 +1,20 @@
+.background-immage {
+    background-image: url('/public/images/home.jpg');
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background-size:cover; */
+    background-size:contain;
+    /* background-position: center center; */
+    background-position: center top;
+    /* height: 80vh; */
+    width: 100vw;
+    height: 98vw;
+
+    /* width: 100%; */
+    /* height: auto; */
+    
+    margin: 0;
+    padding: 0;
+    /* border: 3px solid greenyellow; */
+}

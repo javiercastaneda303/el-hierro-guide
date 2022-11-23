@@ -28,6 +28,11 @@
         "g":"",
         "h":""
     },
+    "home":{
+        "explore":"Explore El Hierro with me",
+        "endless":"Endless possibilities",
+        "more":"Discover more..."
+    },
     "formContact":{
         "title":"Contact form",
         "name":"Name",

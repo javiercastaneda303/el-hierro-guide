@@ -13,11 +13,12 @@ import { makeStyles } from "@mui/styles";
 import { Send } from "@mui/icons-material";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import "./style.css";
+// import "./style.css"; //¿Esto funcionaría?
+require('./style.css')
 
 const useStyle = makeStyles((theme: any) => ({
   form: {
-    backgroundColor: '#0a182d',
+    // backgroundColor: '#0a182d',
     // backgroundColor: '#fff',
     // margin: '0 !important',
     // padding:'0 !important',
@@ -77,10 +78,10 @@ export default function FormContact() {
       </Typography>
 
       <form onSubmit={handleFormSubmit} style={{ padding: 0, margin: 0 }}>
-        <Grid container spacing={6} className={classes.form}>
+        <Grid container spacing={6} className="textShadow">
           <Grid item xs={12}>
             <FormControl>
-              <InputLabel htmlFor="nombre">{t("formContact.name")}</InputLabel>
+              <InputLabel htmlFor="nombre" >{t("formContact.name")}</InputLabel>
               <Input
                 name="nombre"
                 id="nombre"
@@ -92,7 +93,7 @@ export default function FormContact() {
           </Grid>
           <Grid item xs={12}>
             <FormControl>
-              <InputLabel htmlFor="email">{t("formContact.email")}</InputLabel>
+              <InputLabel htmlFor="email" >{t("formContact.email")}</InputLabel>
               <Input
                 name="email"
                 id="email"
@@ -121,6 +122,7 @@ export default function FormContact() {
           </Grid>
           <Grid item xs={12}>
             <FormControlLabel
+              className="textShadow"
               label= {t("formContact.message")}
               control={
                 <Checkbox

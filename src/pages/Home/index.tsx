@@ -6,14 +6,14 @@ export default function Home(){
     const [t, i18n] = useTranslation("global");
     return (
       // <div style={{ backgroundImage: 'url(images/home.jpg)', padding: 48, color: '#fff' }}>
-      <div className="background-immage">
+      <div className="background-immage-home" style={{ padding: '2vw', color: '#fff' }}>
         <Typography variant="h6" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
           {t("home.explore")}
         </Typography>
-        <Typography variant="h6" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
+        <Typography variant="subtitle2" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
           {t("home.endless")}
         </Typography>
-        <Typography variant="h6" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
+        <Typography variant="subtitle2" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
           {t("home.more")}
         </Typography>
       </div>

@@ -1,20 +1,28 @@
-.background-immage-home {
-    background-image: url('/public/images/home.jpg');
+.background-immage-about-me {
+    background-image: url('/public/images/aboutMe.jpg');
     /* background-color: aqua; */
     background-repeat: no-repeat;
     background-attachment: fixed;
     /* background-size:cover; */
     background-size:contain;
     /* background-position: center center; */
-    background-position: center top;
+    background-position: center center;
     /* height: 80vh; */
     width: 100vw;
-    height: 98vw;
+    height: 98vh;
 
     /* width: 100%; */
     /* height: auto; */
     
     margin: 0;
-    padding: 0;
+    padding-top: 3vw;
+    
     /* border: 3px solid greenyellow; */
+}
+
+.textShadow-about-me {
+    color: #fff!important;
+    _color:aliceblue!important;
+    text-shadow: 1px 1px #000 !important;
+    _background-color: blue;
 }

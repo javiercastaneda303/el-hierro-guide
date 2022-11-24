@@ -69,8 +69,6 @@ function App() {
       <header className="App-header">
           <PersistentDrawerLeft >
             <Outlet />
-            <ChangeLanguage />
-            <FormContact />
             <Footer />
           </ PersistentDrawerLeft>
       </header>

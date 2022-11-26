@@ -7,6 +7,12 @@ export default function MyClients(){
         <p style={{ textShadow: '1px 1px #000' }}>
           {t("header.myClients")}
         </p>
+        <div >
+          <a target="_blank" href={`https://g.page/r/CU3WF18mMrdyEAI/review`}   rel="noreferrer">    
+            <img src="/icons/whatsApp.png"  alt="icon-whatsApp" style={{ width:'100%', cursor: 'pointer' }} />
+          </a>
+        </div>
+         
       </div>
     )
     

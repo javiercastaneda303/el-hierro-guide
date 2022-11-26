@@ -30,11 +30,11 @@ export default function Footer(){
             <img src="/icons/whatsApp.png"  alt="icon-whatsApp" style={{ width:'100%', cursor: 'pointer' }} />
           </a>
         </div>
-        <div className="icon-footer">
+        {/* <div className="icon-footer">
           <a target="_blank" href={instagramURL}   rel="noreferrer">
             <img src="/icons/instagram.png"  alt="icon-instagram" style={{ width:'100%', cursor: 'pointer' }} />
           </a>
-        </div>
+        </div> */}
         <br></br>
         
         <Typography variant="h6" color="initial">{phoneVisible}</Typography> 

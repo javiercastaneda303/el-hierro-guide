@@ -48,7 +48,7 @@ export default function ResponsiveDrawer(props: Props) {
       <Divider />
       <Divider />
       <List>
-        {['home', 'aboutMe', 'myClients', 'offer', 'contact'].map((text, index) => (
+        {['home', 'aboutMe', 'myClients', 'offer'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton onClick={() => navigate(`${text}/${i18n.language}`)}>
               <ListItemText primary={t(`header.${text}`)} />

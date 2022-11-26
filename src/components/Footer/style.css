@@ -1,5 +1,19 @@
 .icon-footer {
-    width: 10%;
+    width: 10vw;
     _border: solid 3px red;
     display: inline-block;
 }
+
+
+@media (min-width: 700px) {
+  .icon-footer {
+    width: 5vw;
+  }
+}
+
+@media (min-width: 900px) {
+  .icon-footer {
+    width: 5vw;
+  }
+}
+

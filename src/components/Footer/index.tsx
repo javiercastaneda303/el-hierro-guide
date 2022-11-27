@@ -37,8 +37,8 @@ export default function Footer(){
         </div> */}
         <br></br>
         
-        <Typography variant="h6" color="initial">{phoneVisible}</Typography> 
-        <Typography variant="h6" color="initial">{email}</Typography> 
+        <Typography variant="h6" color="initial" sx={{ textShadow: '2px 2px #000', color: '#fff' }}>{phoneVisible}</Typography> 
+        <Typography variant="h6" color="initial" sx={{ textShadow: '2px 2px #000', color: '#fff' }}>{email}</Typography> 
       </div>
     )
     

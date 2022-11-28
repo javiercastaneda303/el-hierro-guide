@@ -47,10 +47,5 @@
     z-index: -100;
 }
 
-@media (min-width: 1600px) {
-    .back-image{
-        _transform: translate(-50%,0%);
-    }
-  }
 
 /* imágen de fondo End*/

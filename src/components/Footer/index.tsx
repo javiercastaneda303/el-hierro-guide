@@ -16,7 +16,7 @@ export default function Footer(){
     return (
       <div>
         <div className="icon-footer">
-          <a href='mailto:email@example.com?subject=Subject&body=Body%20goes%20here'>          
+          <a href='mailto:jo.rudnik@gmail.com?subject=Subject&body=Body%20goes%20here'>          
             <img  src="/icons/email.png" className="_icon-language" alt="icon-email" style={{ width:'100%', cursor: 'pointer' }} />
           </a>
         </div>

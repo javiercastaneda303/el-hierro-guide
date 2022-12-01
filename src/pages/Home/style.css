@@ -1,32 +1,3 @@
-.background-immage-home {
-    /* background-image: url('/public/images/home.jpg'); */
-    /* background-color: aqua; */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-    /* background-size:contain; */
-    background-position: center center;
-    /* background-position: center top; */
-    /* height: 80vh; */
-    width: 100vw;
-    height: 98vw;
-
-    /* width: 100%; */
-    /* height: auto; */
-    margin: 0;
-    padding: 0;
-    border: 3px solid greenyellow; 
-}
-
-.back-image{
-    _width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    /* left: -500px;  */
-    z-index: -100;
-}
-
 .container_back{
     position: sticky;
     top:0;
@@ -35,6 +6,25 @@
     height: 0;
     z-index: -100;
 }
+
+.back-image-home{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    /* left: -500px;  */
+    z-index: -100;
+}
+
+
+.background-home {
+    _width: 100vw;
+    min-height: 80vh;
+    _margin: 0;
+    _padding: 0;
+    border: 3px solid greenyellow; 
+}
+
+
 
 @media (min-width: 1600px) {
     .back-image{

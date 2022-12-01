@@ -13,9 +13,9 @@ export default function Home(){
       <>
      
       <div className="container_back" >
-        <img className="back-image" src="images/home.jpg"  style={{left:(width as number) <1600 ?-((16*(height as number)/12)-(width as number)):"50%"}}/>
+        <img className="back-image-home" src="images/home.jpg"  style={{left:(width as number) <1600 ?-((16*(height as number)/12)-(width as number)):"50%"}}/>
       </div>
-      <div className="background-immage-home" style={{ padding: '10vh', color: '#fff' }}>
+      <div className="background-home" style={{ paddingTop: '5vw', color: '#fff' }}>
 
         <Typography variant="h3" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
           {t("home.explore")}

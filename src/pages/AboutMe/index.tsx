@@ -13,11 +13,11 @@ export default function AboutMe(){
   return (
     // <div style={{ backgroundImage: 'url(images/aboutMe.jpg)', padding: 24, color: '#fff' }}>
     <>
-    <div className="container_back" >
+    <div className="container_back-about-me" >
         {/* <img className="back-image" src="images/aboutMe.jpg"  style={{left:(width as number) <1600 ?(((16*(height as number)/12)-(width as number))/2):"50%"}}/> */}
-        <img className="back-image" src="images/aboutMe.jpg" />
+        <img className="back-image-about-me" src="images/aboutMe.jpg" />
     </div>
-    <div className="background-immage-about-me" style={{ padding: '5%'}}>
+    <div className="background-about-me" style={{ padding: '5%'}}>
         <Typography variant="h6" className="textShadow-about-me" sx={{ textShadow: '1px 1px #000' }}>
           {t("header.welcome")}          
         </Typography>

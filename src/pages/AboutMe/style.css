@@ -1,23 +1,30 @@
-.background-immage-about-me {
-    _background-image: url('/public/images/aboutMe.jpg');
-    /* background-color: aqua; */
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    /* background-size:cover; */
-    background-size:contain;
-    /* background-position: center center; */
-    background-position: center center;
-    /* height: 80vh; */
+/* imágen de fondo Start*/
+.container_back-about-me {
+    position: sticky;
+    top:0;
+    left: 0;
     width: 100vw;
-    height: 98vh;
+    height: 0;
+    z-index: -100;
+}
+.back-image-about-me {
+    _width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+/* imágen de fondo End*/
 
-    /* width: 100%; */
-    /* height: auto; */
-    
-    margin: 0;
+.background-about-me {
+    width: 96vw;
+    min-height: 80vh;
+    margin-right: 2vw ;
+    margin-left: 2vw;
     padding-top: 3vw;
     
-    /* border: 3px solid greenyellow; */
+    border: 3px solid greenyellow;
 }
 
 .textShadow-about-me {
@@ -27,25 +34,13 @@
     _background-color: blue;
 }
 
-/* imágen de fondo Start*/
-
-.back-image{
-    _width: 100%;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -100;
+@media (min-width: 1600px) {
+    .back-image-about-me{
+        position:relative
+    }
+    .background-about-me{
+        max-width: 1600px;
+        position:relative;
+        margin: auto;
+    }
 }
-
-.container_back{
-    position: sticky;
-    top:0;
-    left: 0;
-    width: 100vw;
-    height: 0;
-    z-index: -100;
-}
-
-
-/* imágen de fondo End*/

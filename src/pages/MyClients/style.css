@@ -1,0 +1,52 @@
+/* imágen de fondo Start*/
+.container_back-my-clients {
+    position: sticky;
+    top:0;
+    left: 0;
+    width: 100vw;
+    height: 0;
+    z-index: -100;
+}
+.back-image-my-clients {
+    _width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+/* imágen de fondo End*/
+
+
+.background-my-clients {
+    width: 96vw;
+    min-height: 80vh;
+    margin-right: 2vw ;
+    margin-left: 2vw;
+    padding-top: 3vw;
+    
+    border: 3px solid rgb(122, 71, 218);
+}
+.read-or-hide {
+    display: block;
+    margin-bottom:4vw;
+}
+.imgReview{
+    cursor: 'pointer';
+    width: 50%;
+    margin-top: 10vw;
+}
+
+.imgReviewInsert {
+    margin-top: 3vw;
+    margin-bottom: 0;
+    width: 15vh;
+}
+
+
+@media (min-width: 1200px) {
+    .imgReview{
+        width: 700px;
+    }
+  }
+

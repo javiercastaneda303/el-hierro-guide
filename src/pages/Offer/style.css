@@ -29,3 +29,12 @@
     
     border: 3px solid #7fbbde;
 }
+
+
+@media (min-width: 700px) {
+    .back-image-offer{
+        width: 96vw;
+        position:relative;
+        margin: auto;
+    }
+}

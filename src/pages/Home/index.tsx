@@ -13,7 +13,7 @@ export default function Home(){
       <>
      
       <div className="container_back" >
-        <img className="back-image-home" src="images/home.jpg"  style={{left:(width as number) <1600 ?-((16*(height as number)/12)-(width as number)):"50%"}}/>
+        <img className="back-image-home" src="images/home.jpg"  style={{left:(width as number) <1283 ?-((16*(height as number)/12)-(width as number)):(-(((16*(height as number)/12)-(width as number))/2))}}/>
       </div>
       <div className="background-home" style={{ paddingTop: '5vw', color: '#fff' }}>
 

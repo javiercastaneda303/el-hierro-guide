@@ -34,12 +34,9 @@
     _background-color: blue;
 }
 
-@media (min-width: 1600px) {
-    .back-image-about-me{
-        position:relative
-    }
+@media (min-width: 1300px) {
     .background-about-me{
-        max-width: 1600px;
+        max-width: 1300px;
         position:relative;
         margin: auto;
     }

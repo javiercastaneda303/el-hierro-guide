@@ -58,12 +58,12 @@ export default function MyClients(){
         <Typography  color="inherit" sx={{ textShadow: '1px 1px #fff', fontSize: '2em' }}>
           {t("header.reviewInsert")}
         </Typography>
-        <Typography  color="inherit" sx={{ textShadow: '1px 1px #fff', fontSize: '2em' }}>
-          Haz clic aquí:
-        </Typography>
         <a target="_blank" href={`https://g.page/r/CU3WF18mMrdyEAI/review`}   rel="noreferrer">    
-            <img className="imgReviewInsert" src="/icons/reviews.jpg"  alt="icon-reviews" style={{ cursor: 'pointer' }} />
-          </a>
+          <Typography  color="inherit" sx={{ textShadow: '1px 1px #fff', fontSize: '2em' }}>
+            {t("header.clicHere")}
+          </Typography>
+          <img className="imgReviewInsert" src="/icons/reviews.jpg"  alt="icon-reviews" style={{ cursor: 'pointer' }} />
+        </a>
       </div>
       </>
       /*

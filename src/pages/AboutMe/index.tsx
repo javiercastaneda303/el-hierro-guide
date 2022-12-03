@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import Typography from '@mui/material/Typography'
-// import useWindowSize from "../../hooks/useWindowsSize";
+import useWindowSize from "../../hooks/useWindowsSize";
 require('./style.css')
 export default function AboutMe(){
   const [t, i18n] = useTranslation("global");
   const [isReadMore, setIsReadMore] = useState(true);
+  const {height,width}= useWindowSize()
   const toggleReadMore = () => {
     setIsReadMore(!isReadMore);
   };
@@ -15,7 +16,7 @@ export default function AboutMe(){
     <>
     <div className="container_back-about-me" >
         {/* <img className="back-image" src="images/aboutMe.jpg"  style={{left:(width as number) <1600 ?(((16*(height as number)/12)-(width as number))/2):"50%"}}/> */}
-        <img className="back-image-about-me" src="images/aboutMe.jpg" />
+        <img className="back-image-about-me" src="images/aboutMe.jpg" style={{left:(width as number) <1283 ? "0" :(-(((16*(height as number)/12)-(width as number))/2))}}/>
     </div>
     <div className="background-about-me" style={{ padding: '5%'}}>
         <Typography variant="h6" className="textShadow-about-me" sx={{ textShadow: '1px 1px #000' }}>

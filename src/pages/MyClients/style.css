@@ -44,9 +44,22 @@
 }
 
 
+@media (min-width: 400px) {
+    .imgReview{
+        width: 40%;
+    }
+}
+
+
+@media (min-width: 600px) {
+    .imgReview{
+        width: 32%;
+    }
+}
+
+
 @media (min-width: 1200px) {
     .imgReview{
-        width: 700px;
+        width: 25%;
     }
-  }
-
+}

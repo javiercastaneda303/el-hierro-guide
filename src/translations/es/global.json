@@ -23,7 +23,7 @@
         "readLess":"Ver menos…",
         "reviewRead":"Lo que otros han dicho...",
         "reviewInsert":"¿Te gustaría dejarme una reseña?",
-        "d":"",
+        "clicHere":"Haz click aquí:",
         "e":"",
         "f":"",
         "g":"",
@@ -47,8 +47,9 @@
         "cookies":"Cookies"
     },
     "offer":{
+        "all":"Trabajo con tour operadores, grupos y viajeros individuales. Por favor contáctame para más detalles",
         "tourOperators":"Trabajo con tour operadores,",
-        "groups":"grupos y viajeros individuales",
+        "groups":"grupos y viajeros individuales.",
         "contact":"Por favor contáctame para más detalles"
     }
 }

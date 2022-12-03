@@ -24,7 +24,7 @@
         "readLess":"Zobrazit méně.......",
         "reviewRead":"Co řekli ostatní...",
         "reviewInsert":"Chcete mi zanechat recenzi?",
-        "d":"",
+        "clicHere":"Klikněte sem:",
         "e":"",
         "f":"",
         "g":"",
@@ -48,6 +48,7 @@
         "cookies":"Cookies"
     },
     "offer":{
+        "all":"Spolupracuji s touroperátory, skupinami i individuálními cestovateli. Kontaktujte mě prosím pro další podrobnosti.",
         "tourOperators":"Spolupracuji s touroperátory,",
         "groups":"skupinami i individuálními cestovateli.",
         "contact":"Kontaktujte mě prosím pro další podrobnosti."

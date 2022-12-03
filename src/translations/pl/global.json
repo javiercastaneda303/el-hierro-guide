@@ -23,7 +23,7 @@
         "readLess":"Zwiń.....",
         "reviewRead":"Oto co powiedzieli moi klienci...",
         "reviewInsert":"Chcesz zostawić mi recenzję?",
-        "d":"",
+        "clicHere":"Kliknij tutaj:",
         "e":"",
         "f":"",
         "g":"",
@@ -47,6 +47,7 @@
         "cookies":"Cookies"
     },
     "offer":{
+        "all":"Współpracuję z touroperatorami, grupami i podróżnikami indywidualnymi. Proszę o kontakt w celu uzyskania szczegółowych informacji.",
         "tourOperators":"Współpracuję z touroperatorami,",
         "groups":"grupami i podróżnikami indywidualnymi.",
         "contact":"Proszę o kontakt w celu uzyskania szczegółowych informacji."

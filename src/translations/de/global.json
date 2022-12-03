@@ -23,7 +23,7 @@
         "readLess":"Weniger zeigen…",
         "reviewRead":"Hier ist, was andere gesagt haben ...",
         "reviewInsert":"Möchten Sie mir eine Bewertung hinterlassen?",
-        "d":"",
+        "clicHere":"Klick hier:",
         "e":"",
         "f":"",
         "g":"",
@@ -47,6 +47,7 @@
         "cookies":"Cookies"
     },
     "offer":{
+        "all":"Ich arbeite mit Reiseveranstaltern, Gruppen und Einzelreisenden. Bitte kontaktieren Sie mich für weitere Informationen.",
         "tourOperators":"Ich arbeite mit Reiseveranstaltern,",
         "groups":"Gruppen und Einzelreisenden.",
         "contact":"Bitte kontaktieren Sie mich für weitere Informationen."

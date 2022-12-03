@@ -24,7 +24,7 @@
         "readLess":"Show less…",
         "reviewRead":"Here is what others have said...",
         "reviewInsert":"Would you like to leave me a review?",
-        "d":"",
+        "clicHere":"Click here:",
         "e":"",
         "f":"",
         "g":"",
@@ -48,6 +48,7 @@
         "cookies":"Cookies"
     },
     "offer":{
+        "all":"I work with tour operators, groups and individual travelers. Please contact me for further details.",
         "tourOperators":"I work with tour operators,",
         "groups":"groups and individual travelers.",
         "contact":"Please contact me for further details."

@@ -11,13 +11,6 @@
         "myClients": "Moi klienci o mnie",
         "offer": "Co oferuję",
         "contact": "Kontakt",
-        "welcome":"Nazywam się Asia i cieszę się, że tu trafiłeś :)",
-        "official guide":"Jestem Oficjalnym Przewodnikiem Turystycznym Wysp Kanaryjskich - warto to wiedzieć, bo tylko przewodnik upoważniony przez Rząd Wysp Kanaryjskich może legalnie pokazać Ci skarby wyspy El Hierro. Dodatkowo zapewnisz sobie wycieczkę najwyższej jakości.",
-        "pasion":"Pasjonuje mnie historia, języki i dzielenie się doświadczeniami. Jestem zakochana w tej wyspie i chciałabym, żebyś odkrył ją ze mną. Organizowane przeze mnie wycieczki mają jeden cel - być dla Ciebie niezapomnianymi i jestem dumna, że otrzymałam wiele referencji od zadowolonych klientów.",
-        "know":"Ze mną będziesz mógł poznać El Hierro z lokalnego i autentycznego punktu widzenia - podczas każdej wycieczki nie tylko cofniemy się w czasie, aby poznać historię i ciekawostki odwiedzanego przez nas obszaru, ale również polecę Ci lokalne miejsca na zakupy, na kawę oraz autentyczne restauracje, które wyróżniają się jakością i ceną.",
-        "your friend":"Podczas wycieczki będę nie tylko Twoim przewodnikiem, ale także przyjacielem, więc możesz zapytać mnie o wszystko, co udoskonali Twoje wakacje na El Hierro.",
-        "camon":"Nie wahaj się i dołącz do przygód ze mną!",
-        "i would like":"Zapraszam do przeglądania mojej strony, gdzie dowiesz się więcej o mnie i mojej ofercie.",
         "whatsappMessage":"Witam,%20chciałbym%20dowiedzieć%20się%20więcej%20o%20Twojej%20ofercie...%20",
         "readMore":"Przeczytaj więcej....",
         "readLess":"Zwiń.....",
@@ -51,5 +44,14 @@
         "tourOperators":"Współpracuję z touroperatorami,",
         "groups":"grupami i podróżnikami indywidualnymi.",
         "contact":"Proszę o kontakt w celu uzyskania szczegółowych informacji."
+    },
+    "aboutMe":{
+        "aOne":"Jestem Asia i cieszę się, że tu trafiłeś :)",
+        "aTwo":"Jestem Oficjalnym Przewodnikiem Turystycznym Wysp Kanaryjskich, autoryzowanym przez lokalny rząd i chciałabym pokazać Ci skarby wyspy El Hierro.",
+        "aThree":"Pasjonuje mnie historia, języki i dzielenie się doświadczeniami.",
+        "bOne":"Jestem zakochana w tej wyspie i chciałabym, żebyś odkrył ją razem ze mną.Organizowane przeze mnie wycieczki mają jeden cel - być dla Ciebie niezapomnianymi i jestem dumna, że otrzymałam wiele referencji od zadowolonych klientów.",
+        "bknow":"Ze mną będziesz mógł poznać El Hierro z lokalnego i autentycznego punktu widzenia - podczas każdej wycieczki nie tylko cofniemy się w czasie, aby poznać historię i ciekawostki odwiedzanego przez nas obszaru, ale również polecę Ci lokalne miejsca na zakupy, na kawę oraz autentyczne restauracje, które wyróżniają się jakością i ceną.",
+        "bFriend":"Podczas wycieczki będę nie tylko Twoim przewodnikiem, ale także przyjacielem, więc możesz zapytać mnie o wszystko, co udoskonali Twoje wakacje na El Hierro.",
+        "bCamon":"Nie wahaj się i dołącz do przygód ze mną!"
     }
 }

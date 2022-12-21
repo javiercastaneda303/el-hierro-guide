@@ -11,13 +11,6 @@
         "myClients": "Meine Kunden über mich",
         "offer": "Was ich anbiete",
         "contact": "Kontakt",
-        "welcome":"Ich bin Joanna und freue mich, Sie hier begrüßen zu dürfen :)",
-        "official guide":"Ich bin eine staatlich anerkannte Reiseleiterin für die Kanarischen Inseln. Das ist wichtig zu wissen, denn nur von der Regierung der Kanarischen Inseln anerkannte Reiseführer dürfen Ihnen die Schätze der Insel El Hierro zeigen. So können Sie sicher sein, dass Sie eine Tour von höchster Qualität bekommen.",
-        "pasion":"Geschichte, Sprachen und der Austausch von Erfahrungen sind meine Leidenschaft. Ich bin in El Hierro verliebt und würde mich freuen, wenn Sie die Insel mit mir entdecken. Ich organisiere meine Touren mit einem Ziel - Ihnen ein unvergessliches Erlebnis zu bieten. Dass dies mir gelingt, zeugen die vielen Referenzen, die ich von glücklichen und zufriedenen Kunden erhalten habe.",
-        "know":"Mit mir erleben Sie El Hierro lokal und authentisch! Bei jeder Tour reisen wir in die Vergangenheit, in die Geschichte der Insel, und erfahren außerdem einige Kuriositäten der von uns besuchten Gegenden. Gleichzeitig erleben Sie El Hierro Gegenwart, denn ich zeige Ihnen Orte zum Einkaufen, Kaffeetrinken und Essengehen, welche vor allem von den Einheimischen besucht werden und sich durch ihre Qualität und ihren Preis auszeichnen.",
-        "your friend":"Während der Tour bin ich nicht nur Ihre Reiseleiterin, sondern auch eine Freundin, die Sie über alles fragen können, was Sie für Ihren Urlaub auf der Insel brauchen.",
-        "camon":"Zögern Sie nicht, erkunden Sie meine Website, um mehr über mich und mein Angebot zu erfahren!",
-        "i would like":"Ich freue mich darauf, Sie bei Ihrem nächsten Abenteuer zu begleiten!",
         "whatsappMessage":"Hallo,%20ich%20würde%20gerne%20mehr%20über%20dein%20Angebot%20erfahren...%20",
         "readMore":"Mehr lesen…",
         "readLess":"Weniger zeigen…",
@@ -51,5 +44,14 @@
         "tourOperators":"Ich arbeite mit Reiseveranstaltern,",
         "groups":"Gruppen und Einzelreisenden.",
         "contact":"Bitte kontaktieren Sie mich für weitere Informationen."
+    },
+    "aboutMe":{
+        "aOne":"Ich bin Joanna und freue mich, Sie hier begrüßen zu dürfen :)",
+        "aTwo":"Ich bin eine staatlich anerkannte Reiseleiterin für die Kanarischen Inseln, und ich würde Ihnen gerne die Schätze der Insel El Hierro zeigen.",
+        "aThree":"Geschichte, Sprachen und der Austausch von Erfahrungen sind meine Leidenschaft",
+        "bOne":"Ich bin in El Hierro verliebt und würde mich freuen, wenn Sie die Insel mit mir entdecken. Ich organisiere meine Touren mit einem Ziel - Ihnen ein unvergessliches Erlebnis zu bieten. Dass dies mir gelingt, zeugen die vielen Referenzen, die ich von glücklichen und zufriedenen Kunden erhalten habe.",
+        "bknow":"Mit mir erleben Sie El Hierro lokal und authentisch! Bei jeder Tour reisen wir in die Vergangenheit, in die Geschichte der Insel, und erfahren außerdem einige Kuriositäten der von uns besuchten Gegenden. Gleichzeitig erleben Sie El Hierro Gegenwart, denn ich zeige Ihnen Orte zum Einkaufen, Kaffeetrinken und Essengehen, welche vor allem von den Einheimischen besucht werden und sich durch ihre Qualität und ihren Preis auszeichnen.",
+        "bFriend":"Während der Tour bin ich nicht nur Ihre Reiseleiterin, sondern auch eine Freundin, die Sie über alles fragen können, was Sie für Ihren Urlaub auf der Insel brauchen.",
+        "bCamon":"Ich freue mich darauf, Sie bei Ihrem nächsten Abenteuer zu begleiten!"
     }
 }

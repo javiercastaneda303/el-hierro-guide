@@ -20,27 +20,27 @@ export default function AboutMe(){
     </div>
     <div className="background-about-me" style={{ padding: '5%'}}>
         <Typography variant="h6" className="textShadow-about-me" sx={{ textShadow: '1px 1px #000' }}>
-          {t("header.welcome")}          
+          {t("aboutMe.aOne")}          
         </Typography>
         <Typography variant="h6" className="textShadow-about-me" sx={{ textShadow: '1px 1px #000' }}>
-          {t("header.official guide")}
+          {t("aboutMe.aTwo")}
+        </Typography>        
+        <Typography variant="h6" className="textShadow-about-me" sx={{ textShadow: '1px 1px #000' }}>
+          {t("aboutMe.aThree")}
         </Typography>
         {!isReadMore ? 
         <>
           <Typography variant="h6" className="textShadow-about-me" sx={{ textShadow: '1px 1px #000' }}>
-            {t("header.pasion")}
+            {t("aboutMe.bOne")}
           </Typography>
           <Typography variant="h6" className="textShadow-about-me" sx={{ textShadow: '1px 1px #000' }}>
-            {t("header.know")}
+            {t("aboutMe.bknow")}
           </Typography>
           <Typography variant="h6" className="textShadow-about-me" sx={{ textShadow: '1px 1px #000' }}>
-            {t("header.your friend")}
+            {t("aboutMe.bFriend")}
           </Typography>
           <Typography variant="h6" className="textShadow-about-me" sx={{ textShadow: '1px 1px #000' }}>
-            {t("header.camon")}
-          </Typography>
-          <Typography variant="h6" className="textShadow-about-me" sx={{ textShadow: '1px 1px #000' }}>
-            {t("header.i would like")}
+            {t("aboutMe.bCamon")}
           </Typography>
         </>
         : ""}

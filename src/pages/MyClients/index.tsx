@@ -1,7 +1,10 @@
 import { Typography } from "@mui/material";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import getReviews from "../../components/Reviews/get-reviews";
+import Review from "../../components/Reviews/review";
 import useWindowSize from "../../hooks/useWindowsSize";
+
 require('./style.css')
 
 export default function MyClients(){
@@ -11,6 +14,13 @@ export default function MyClients(){
       setIsReadMore(!isReadMore);
     };
     const {height,width}= useWindowSize()
+
+    useEffect(() => {
+      
+      getReviews()
+    }, [])
+    
+
     return (
       <>
         {/* y si a la imágen le quiero poner un min-width:'200px' */}
@@ -20,8 +30,19 @@ export default function MyClients(){
             <img className="back-image-my-clients" src="images/myClients.jpg" style={{left:(width as number) <1200 ?(-(((16*(height as number)/12)-(width as number))/1.3)):(((width as number)-1600)/2)}} />
         </div>
         <div className="background-my-clients" >
+        {/* {reviews?.map(({
+	profile_photo_url, rating, text, author_name,
+}) => (
+	<Review
+		key={text}
+		name={author_name}
+		rating={rating}
+		text={text}
+		src={profile_photo_url}
+	/>
+))} */}
           <Typography variant="h6" color="inherit" sx={{ textShadow: '1px 1px #fff' }}>
-            {t("header.reviewRead")}
+            {t("header.reviewRead")}##############
           </Typography>
           <a target="_blank" href={`https://goo.gl/maps/2ggw8onGKza2kBbw8`}   rel="noreferrer">
             <img className="imgReview" src="/reviews/1-review.png"  alt="1-review"  />

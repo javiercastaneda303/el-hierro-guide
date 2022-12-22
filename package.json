@@ -16,10 +16,12 @@
     "@types/node": "^16.11.59",
     "@types/react": "^18.0.20",
     "@types/react-dom": "^18.0.6",
+    "axios": "^1.2.1",
     "gh-pages": "^4.0.0",
     "i18next": "^21.9.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-geocode": "^0.2.3",
     "react-i18next": "^11.18.6",
     "react-router-dom": "^6.4.1",
     "react-scripts": "5.0.1",
@@ -53,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-geocode": "^0.2.1"
   }
 }

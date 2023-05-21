@@ -42,7 +42,7 @@ export default function MyClients(){
 	/>
 ))} */}
           <Typography variant="h6" color="inherit" sx={{ textShadow: '1px 1px #fff' }}>
-            {t("header.reviewRead")}##############
+            {t("header.reviewRead")}
           </Typography>
           <a target="_blank" href={`https://goo.gl/maps/2ggw8onGKza2kBbw8`}   rel="noreferrer">
             <img className="imgReview" src="/reviews/1-review.png"  alt="1-review"  />

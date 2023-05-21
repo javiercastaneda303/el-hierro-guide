@@ -16,7 +16,7 @@ export default function AboutMe(){
     <>
     <div className="container_back-about-me" >
         {/* <img className="back-image" src="images/aboutMe.jpg"  style={{left:(width as number) <1600 ?(((16*(height as number)/12)-(width as number))/2):"50%"}}/> */}
-        <img className="back-image-about-me" src="images/aboutMe.jpg" style={{left:(width as number) <1283 ? "0" :(-(((16*(height as number)/12)-(width as number))/2))}}/>
+        <img className="back-image-about-me" src="images/aboutMe.jpg" style={{left:(width as number) <840 ? "0" :(-(((16*(height as number)/12)-(width as number))/2))}}/>
     </div>
     <div className="background-about-me" style={{ padding: '5%'}}>
         <Typography variant="h6" className="textShadow-about-me" sx={{ textShadow: '1px 1px #000' }}>

@@ -20,6 +20,7 @@
 .background-about-me {
     width: 96vw;
     min-height: 80vh;
+    _max-width: 800px ;
     margin-right: 2vw ;
     margin-left: 2vw;
     padding-top: 3vw;
@@ -34,9 +35,9 @@
     _background-color: blue;
 }
 
-@media (min-width: 1300px) {
+@media (min-width: 840px) {
     .background-about-me{
-        max-width: 1300px;
+        max-width: 840px;
         position:relative;
         margin: auto;
     }

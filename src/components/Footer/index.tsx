@@ -18,9 +18,9 @@ export default function Footer(){
     return (
       <div>
         <div className="icon-footer">
-          <a target="_blank" href="https://www.facebook.com/elhierroguide"   onClick={handleClickFacebook}  rel="noreferrer">
-            <img src="/icons/facebook.png"  alt="icon-linkedin" style={{ width:'100%', cursor: 'pointer' }} />
-          </a>        
+          <a target="_blank" href={`https://api.whatsapp.com/send?phone=${phoneWhatsApp}&text=${t("header.whatsappMessage")}`}   rel="noreferrer">    
+            <img src="/icons/whatsApp.png"  alt="icon-whatsApp" style={{ width:'100%', cursor: 'pointer' }} />
+          </a>
         </div>
         <div className="icon-footer">
           <a href='mailto:jo.rudnik@gmail.com?subject=Subject&body=Body%20goes%20here'>          
@@ -33,9 +33,9 @@ export default function Footer(){
           </a>        
         </div>
         <div className="icon-footer">
-          <a target="_blank" href={`https://api.whatsapp.com/send?phone=${phoneWhatsApp}&text=${t("header.whatsappMessage")}`}   rel="noreferrer">    
-            <img src="/icons/whatsApp.png"  alt="icon-whatsApp" style={{ width:'100%', cursor: 'pointer' }} />
-          </a>
+          <a target="_blank" href="https://www.facebook.com/elhierroguide"   onClick={handleClickFacebook}  rel="noreferrer">
+            <img src="/icons/facebook.png"  alt="icon-linkedin" style={{ width:'100%', cursor: 'pointer' }} />
+          </a>        
         </div>
         <div className="icon-footer">
           <a target="_blank" href={`https://www.instagram.com/el.hierro.guide/`}   rel="noreferrer">

@@ -33,7 +33,7 @@
 
 @media (min-width: 700px) {
     .back-image-offer{
-        width: 96vw;
+        _width: 96vw;
         position:relative;
         margin: auto;
     }

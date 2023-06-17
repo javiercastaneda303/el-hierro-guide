@@ -10,7 +10,7 @@ export default function Contact(){
       <>
         <div className="container_back-offer" >
             {/* <img className="back-image" src="images/aboutMe.jpg"  style={{left:(width as number) <1600 ?(((16*(height as number)/12)-(width as number))/2):"50%"}}/> */}
-            <img className="back-image-offer" src="images/offer.jpg" style={{left:(width as number) <700 ?(-(((12*(height as number)/16)-(width as number))/1.3)):"0"}} />
+            <img className="back-image-offer" src="images/offer.jpg" style={{left:(width as number) <70 ?(-(((12*(height as number)/16)-(width as number))/1.3)):"0"}} />
         </div>
         <div className="background-offer" >
           <Typography variant="h4" color="inherit" sx={{ textShadow: '1px 1px #000' }}>

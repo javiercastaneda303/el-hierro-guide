@@ -38,7 +38,7 @@ export default function Footer(){
           </a>        
         </div>
         <div className="icon-footer">
-          <a target="_blank" href={`https://www.instagram.com/el.hierro.guide/`}   rel="noreferrer">
+          <a target="_blank" href={`https://www.instagram.com/elhierroguide/`}   rel="noreferrer">
             <img src="/icons/instagram.png"  alt="icon-instagram" style={{ width:'100%', cursor: 'pointer' }} />
           </a>
         </div> 

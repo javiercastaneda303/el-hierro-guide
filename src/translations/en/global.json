@@ -24,6 +24,9 @@
     },
     "home":{
         "explore":"Explore El Hierro with me",
+        "explore_1":"Explore",
+        "explore_2":"El Hierro",
+        "explore_3":"with me",
         "endless":"Endless possibilities",
         "more":"Discover more..."
     },

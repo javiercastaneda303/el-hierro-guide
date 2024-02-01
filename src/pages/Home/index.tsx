@@ -17,8 +17,14 @@ export default function Home(){
       </div>
       <div className="background-home" style={{ paddingTop: '5vw', color: '#fff' }}>
 
-        <Typography variant="h3" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
-          {t("home.explore")}
+        <Typography variant="h3" padding={1} display= "inline-block" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
+          {t("home.explore_1")}
+        </Typography>
+        <Typography variant="h3" padding={1} display= "inline-block" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
+          {t("home.explore_2")}
+        </Typography>
+        <Typography variant="h3" padding={1} display= "inline-block" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
+          {t("home.explore_3")}
         </Typography>
         <Typography variant="h6" color="inherit" sx={{ textShadow: '1px 1px #000' }}>
           {t("home.endless")}

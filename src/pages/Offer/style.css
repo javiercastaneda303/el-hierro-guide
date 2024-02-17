@@ -22,7 +22,7 @@
     flex-direction: column;
     justify-content: center; /* Centra verticalmente el contenido */
     align-items: center; /* Centra horizontalmente el contenido cuando es necesario */
-    width: 50vw;
+    width: 70vw;
     min-height: 80vh;
     margin-right: auto;
     margin-left: auto;
@@ -30,7 +30,8 @@
     color: #fff;
     text-shadow: 1px 1px #000;    
     border: 3px solid #7fbbde;
-    max-width: 500px; /* Asegúrate de que esto no restrinja demasiado el contenido */
+    max-width: 400px; /* Asegúrate de que esto no restrinja demasiado el contenido */
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 

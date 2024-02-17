@@ -17,16 +17,20 @@
 }
 /* imágen de fondo End*/
 
-
 .background-offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+    align-items: center; /* Centra horizontalmente el contenido cuando es necesario */
     width: 50vw;
     min-height: 80vh;
-    margin-right: 20vw ;
-    margin-left: 20vw;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 3vw;
     color: #fff;
-    text-shadow: '1px 1px #000';    
+    text-shadow: 1px 1px #000;    
     border: 3px solid #7fbbde;
+    max-width: 500px; /* Asegúrate de que esto no restrinja demasiado el contenido */
 }
 
 

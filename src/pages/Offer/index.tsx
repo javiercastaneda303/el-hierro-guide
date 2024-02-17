@@ -12,7 +12,7 @@ export default function Contact(){
     return (
       <>
         <div className="container_back-offer">
-            <img className="back-image-offer" src="images/offer.jpg" style={{left: width < 700 ? (-(((12*height)/16)-width)/1.3) : "0"}} />
+            <img className="back-image-offer" src="images/offer.jpg" alt="" style={{left: width! < 700 ? (-(((12*height!)/16)-width!)/1.3) : "0"}} />
         </div>
         <div className="background-offer">
           <Typography variant="h4" color="inherit" sx={{ textShadow: '1px 1px #000', width: '100%', textAlign: 'center' }}>

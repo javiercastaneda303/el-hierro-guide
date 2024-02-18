@@ -18,3 +18,9 @@
   }
 }
 
+#footer {
+  position: fixed;
+  bottom: 10px;
+  left: 50%; /* Establece el punto de inicio del footer en el centro de la pantalla */
+  transform: translateX(-50%); /* Mueve el footer hacia la izquierda basado en su propia anchura */
+}

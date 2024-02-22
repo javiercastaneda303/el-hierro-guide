@@ -15,8 +15,9 @@ export default function Footer(){
       navigate(facebookURL)
     }
 
+    const footerFixed = !!window.location.href.includes('home')
     return (
-      <div id="footer">
+      <div   className={` ${footerFixed?"footerFixed":""}`}>
         <div className="icon-footer">
           <a target="_blank" href={`https://api.whatsapp.com/send?phone=${phoneWhatsApp}&text=${t("header.whatsappMessage")}`}   rel="noreferrer">    
             <img src="/icons/1.png"  alt="icon-whatsApp" style={{ width:'100%', cursor: 'pointer' }} />

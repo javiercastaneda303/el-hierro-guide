@@ -18,7 +18,7 @@
   }
 }
 
-#footer {
+.footerFixed {
   position: fixed;
   bottom: 10px;
   left: 50%; /* Establece el punto de inicio del footer en el centro de la pantalla */
